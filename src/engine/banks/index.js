@@ -8,9 +8,9 @@ const registry = new Map();
 const resolvedCache = new Map();
 
 for (const [name, bank] of Object.entries(bundled)) {
-  if (name === 'ja-hecko-2026') {
+  //if (name === 'ja-hecko-2026') {
     registry.set(name, bank);
-  }
+  //}
 }
 
 function resolveInternal(name, visiting) {

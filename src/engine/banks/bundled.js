@@ -911,17 +911,6 @@ export const bundled = {
       }
 
     }
-  },
-  "klatt1980-en": {
-    "schemaVersion": 1,
-    "name": "klatt1980-en",
-    "displayName": "English (Klatt 1980)",
-    "language": "en-US",
-    "license": "MIT",
-    "extends": null,
-    "source": "Klatt, D.H. (1980). \"Software for a cascade/parallel formant synthesizer.\" J. Acoust. Soc. Am. 67(3), Tables II (vowels) and III (consonants). Bandwidths and frequencies are verbatim from Klatt; amplitudes are approximated for our 3-formant parallel synth (Klatt uses six formants plus a bypass path for fricative spectra). Where Klatt places fricative energy in A3-A6 (~3-5 kHz parallel formants), we move our F3 channel up into that band to capture the hiss.",
-    "phonemes": {
-
-    }
+  
   }
 };

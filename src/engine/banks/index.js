@@ -1,5 +1,5 @@
 // Phoneme bank registry, layering, and resolved-bank lookup.
-
+ 
 import { bundled } from './bundled.js';
 
 const DEFAULT_BANK = 'ja-hecko-2026';

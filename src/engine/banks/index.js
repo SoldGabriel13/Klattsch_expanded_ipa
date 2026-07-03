@@ -2,13 +2,17 @@
 
 import { bundled } from './bundled.js';
 
-const DEFAULT_BANK = 'klatt1980-en';
+const DEFAULT_BANK = 'ja-hecko-2026';
 
 const registry = new Map();
 const resolvedCache = new Map();
 
-for (const [name, bank] of Object.entries(bundled)) {
-  registry.set(name, bank);
+const bank = bundled[DEFAULT_BANK];
+
+if (bank) {
+  registry.set(DEFAULT_BANK, bank);
+} else {
+  throw new Error(`Bank "${DEFAULT_BANK}" not found.`);
 }
 
 function resolveInternal(name, visiting) {

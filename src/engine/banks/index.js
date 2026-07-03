@@ -7,12 +7,10 @@ const DEFAULT_BANK = 'ja-hecko-2026';
 const registry = new Map();
 const resolvedCache = new Map();
 
-const bank = bundled[DEFAULT_BANK];
-
-if (bank) {
-  registry.set(DEFAULT_BANK, bank);
-} else {
-  throw new Error(`Bank "${DEFAULT_BANK}" not found.`);
+for (const [name, bank] of Object.entries(bundled)) {
+  if (name === 'ja-hecko-2026') {
+    registry.set(name, bank);
+  }
 }
 
 function resolveInternal(name, visiting) {

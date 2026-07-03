@@ -1,6 +1,3 @@
-// Auto-generated from src/engine/banks/*.json by tools/build-banks.js.
-// Do not edit by hand. Re-run the generator when banks change.
-
 export const bundled = {
   "ja-hecko-2026": {
     "schemaVersion": 1,
@@ -63,7 +60,33 @@ export const bundled = {
         "A3": 0.5,
         "example": "[ʁ]"
       },
-      "AAN": {
+      "VELH": {
+        "voicing": 0,
+        "F1": 1693,
+        "F2": 1931,
+        "F3": 3528,
+        "BW1": 991,
+        "BW2": 746,
+        "BW3": 1427,
+        "A1": 0.8,
+        "A2": 0.7,
+        "A3": 0.5,
+        "example": "[x]"
+      },
+      "VELR": {
+        "voicing": .5,
+        "F1": 1693,
+        "F2": 1931,
+        "F3": 3528,
+        "BW1": 991,
+        "BW2": 746,
+        "BW3": 1427,
+        "A1": 0.8,
+        "A2": 0.7,
+        "A3": 0.5,
+        "example": "[ɣ]"
+      },
+      "UNRAON": {
         "voicing": 1,
         "F1": 305, 
         "F2": 1148, 
@@ -102,7 +125,6 @@ export const bundled = {
         "A1": 1,
         "A2": 0.9,
         "A3": 0.7,
-        "ipa": "i",
         "example": "[i]"
       },
       "E": {
@@ -116,7 +138,37 @@ export const bundled = {
         "A1": 1,
         "A2": 0.9,
         "A3": 0.7,
-        "ipa": "e̞",
+        "example": "[e]"
+      },
+      "EIH": {
+        "voicing": 1,
+        "F1": 500,
+        "F2": 1700,
+        "F3": 2300,
+        "BW1": 60,
+        "BW2": 100,
+        "BW3": 250,
+        "A1": 1,
+        "A2": 0.9,
+        "A3": 0.7,
+	"glideTo": {
+         "F1": 400,
+          "F2": 1800,
+          "F3": 2570,
+	},
+        "example": "[e͡ɪ]"
+      },
+      "EN": {
+        "voicing": 1,
+        "F1": 331,
+        "F2": 2322,
+        "F3": 2977,
+        "BW1": 135,
+        "BW2": 235,
+        "BW3": 551,
+        "A1": 1,
+        "A2": 0.9,
+        "A3": 0.7,
         "example": "[e]"
       },
       "A": {
@@ -144,8 +196,38 @@ export const bundled = {
         "A1": 1,
         "A2": 0.9,
         "A3": 0.7,
-        "ipa": "o",
         "example": "[o]"
+      },
+      "OOO": {
+        "voicing": 1,
+        "F1": 498,
+        "F2": 720,
+        "F3": 2989,
+        "BW1": 60,
+        "BW2": 110,
+        "BW3": 130,
+        "A1": 1,
+        "A2": 0.9,
+        "A3": 0.7,
+	"glideTo": {
+          "F1": 442,
+          "F2": 1097,
+          "F3": 2337,
+	},
+        "example": "[o͡ʊ]"
+      },
+      "ON": {
+        "voicing": 1,
+        "F1": 421,
+        "F2": 3035,
+        "F3": 4672,
+        "BW1": 40,
+        "BW2": 300,
+        "BW3": 300,
+        "A1": 0.7,
+        "A2": 0.2,
+        "A3": 0.12,
+        "example": "[õ]"
       },
       "UNRU": {
         "voicing": 1,
@@ -174,116 +256,8 @@ export const bundled = {
         "A3": 0.5,
         "isStop": true,
         "ipa": "ɾ",
-        "example": "koko[r]o"
-      }
-    }
-  },
-  "ja-mokhtari-2000": {
-    "schemaVersion": 1,
-    "name": "ja-mokhtari-2000",
-    "displayName": "Japanese (Mokhtari & Tanaka 2000)",
-    "language": "ja-JP",
-    "license": "MIT",
-    "extends": "klatt1980-en",
-    "source": "\"A Corpus of Japanese Vowel Formant Patterns.\" Bulletin of the Electrotechnical Laboratory (ETL), Vol. 64, Special Issue, 57-66. Raw data file: https://web.archive.org/web/20240811224814/https://isd.pu-toyama.ac.jp/~parham/documents/formantsETL/MokhtariTanaka2000_ETLformantdata.txt . Frequencies and bandwidths rounded to the nearest Hz. Mokhtari & Tanaka covers vowels only; the alveolar tap (DX) is reproduced from the ja-hecko-2026 bank with credit to .hecko on the klattsch Discord.",
-    "phonemes": {
-      "I": {
-        "voicing": 1,
-        "F1": 298,
-        "F2": 2083,
-        "F3": 2954,
-        "BW1": 67,
-        "BW2": 130,
-        "BW3": 145,
-        "A1": 1,
-        "A2": 0.9,
-        "A3": 0.7,
-        "ipa": "i",
-        "example": "[i]ru"
+        "example": "[ɾ]"
       },
-      "E": {
-        "voicing": 1,
-        "F1": 431,
-        "F2": 2371,
-        "F3": 2768,
-        "BW1": 65,
-        "BW2": 97,
-        "BW3": 257,
-        "A1": 1,
-        "A2": 0.9,
-        "A3": 0.7,
-        "ipa": "e",
-        "example": "[e]"
-      },
-      "A": {
-        "voicing": 1,
-        "F1": 744,
-        "F2": 1240,
-        "F3": 2426,
-        "BW1": 182,
-        "BW2": 117,
-        "BW3": 222,
-        "A1": 1,
-        "A2": 0.9,
-        "A3": 0.7,
-        "ipa": "ä",
-        "example": "[ä]"
-      },
-      "O": {
-        "voicing": 1,
-        "F1": 460,
-        "F2": 857,
-        "F3": 2405,
-        "BW1": 61,
-        "BW2": 114,
-        "BW3": 134,
-        "A1": 1,
-        "A2": 0.9,
-        "A3": 0.7,
-        "ipa": "o̞",
-        "example": "[o]ni"
-      },
-      "U": {
-        "voicing": 1,
-        "F1": 355,
-        "F2": 1282,
-        "F3": 2233,
-        "BW1": 55,
-        "BW2": 129,
-        "BW3": 135,
-        "A1": 1,
-        "A2": 0.9,
-        "A3": 0.7,
-        "ipa": "ɯᵝ",
-        "example": "[u]nagi"
-      },
-      "DX": {
-        "voicing": 0.6,
-        "F1": 255,
-        "F2": 1325,
-        "F3": 2740,
-        "BW1": 55,
-        "BW2": 100,
-        "BW3": 225,
-        "A1": 0.65,
-        "A2": 0.55,
-        "A3": 0.5,
-        "isStop": true,
-        "ipa": "ɾ",
-        "example": "koko[r]o",
-        "source": "Reproduced from ja-hecko-2026 (RAYTRAC3R PR #59 / .hecko)."
-      }
-    }
-  },
-  "klatt1980-en": {
-    "schemaVersion": 1,
-    "name": "klatt1980-en",
-    "displayName": "English (Klatt 1980)",
-    "language": "en-US",
-    "license": "MIT",
-    "extends": null,
-    "source": "Klatt, D.H. (1980). \"Software for a cascade/parallel formant synthesizer.\" J. Acoust. Soc. Am. 67(3), Tables II (vowels) and III (consonants). Bandwidths and frequencies are verbatim from Klatt; amplitudes are approximated for our 3-formant parallel synth (Klatt uses six formants plus a bypass path for fricative spectra). Where Klatt places fricative energy in A3-A6 (~3-5 kHz parallel formants), we move our F3 channel up into that band to capture the hiss.",
-    "phonemes": {
       "IH": {
         "voicing": 1,
         "F1": 400,
@@ -296,6 +270,24 @@ export const bundled = {
         "A2": 0.9,
         "A3": 0.7,
         "example": "[ɪ]"
+      },
+      "IHUH": {
+        "voicing": 1,
+        "F1": 400,
+        "F2": 1800,
+        "F3": 2570,
+        "BW1": 50,
+        "BW2": 100,
+        "BW3": 140,
+        "A1": 1,
+        "A2": 0.9,
+        "A3": 0.7,
+	"glideTo": {
+          "F1": 596,
+          "F2": 1311,
+          "F3": 2917,
+	},
+        "example": "[ɪ͡ə]"
       },
       "EH": {
         "voicing": 1,
@@ -323,6 +315,19 @@ export const bundled = {
         "A3": 0.7,
         "example": "[æ]"
       },
+      "AEN": {
+        "voicing": 1,
+        "F1": 453,
+        "F2": 1786,
+        "F3": 2105,
+        "BW1": 313,
+        "BW2": 545,
+        "BW3": 1015,
+        "A1": 1,
+        "A2": 0.9,
+        "A3": 0.7,
+        "example": "[æ̃]"
+      },
       "AA": {
         "voicing": 1,
         "F1": 1031,
@@ -335,6 +340,42 @@ export const bundled = {
         "A2": 0.9,
         "A3": 0.7,
         "example": "[a]"
+      },
+      "AAOO": {
+        "voicing": 1,
+        "F1": 1031,
+        "F2": 1479,
+        "F3": 2337,
+        "BW1": 130,
+        "BW2": 70,
+        "BW3": 160,
+        "A1": 1,
+        "A2": 0.9,
+        "A3": 0.7,
+	"glideTo": {
+          "F1": 442,
+          "F2": 1097,
+          "F3": 2337,
+	},
+        "example": "[a͡ʊ]"
+      },
+      "AAIH": {
+        "voicing": 1,
+        "F1": 1031,
+        "F2": 1479,
+        "F3": 2337,
+        "BW1": 130,
+        "BW2": 70,
+        "BW3": 160,
+        "A1": 1,
+        "A2": 0.9,
+        "A3": 0.7,
+	"glideTo": {
+          "F1": 400,
+          "F2": 1800,
+          "F3": 2570,
+	},
+        "example": "[a͡ɪ]"
       },
       "OH": {
         "voicing": 1,
@@ -349,6 +390,24 @@ export const bundled = {
         "A3": 0.7,
         "example": "[ɔ]"
       },
+      "OHIH": {
+        "voicing": 1,
+        "F1": 649,
+        "F2": 908,
+        "F3": 2530,
+        "BW1": 90,
+        "BW2": 100,
+        "BW3": 80,
+        "A1": 1,
+        "A2": 0.9,
+        "A3": 0.7,
+	"glideTo": {
+          "F1": 400,
+          "F2": 1800,
+          "F3": 2570,
+	},
+        "example": "[ɔ͡ɪ]"
+      },
       "AO": {
         "voicing": 1,
         "F1": 817,
@@ -361,6 +420,19 @@ export const bundled = {
         "A2": 0.9,
         "A3": 0.7,
         "example": "[ɒ]"
+      },
+      "UNRAO": {
+        "voicing": 1,
+        "F1": 611,
+        "F2": 915,
+        "F3": 2817,
+        "BW1": 176,
+        "BW2": 55,
+        "BW3": 83,
+        "A1": 1,
+        "A2": 0.9,
+        "A3": 0.7,
+        "example": "[ɑ]"
       },
       "AH": {
         "voicing": 1,
@@ -388,6 +460,24 @@ export const bundled = {
         "A3": 0.7,
         "example": "[ə]"
       },
+      "UH": {
+        "voicing": 1,
+        "F1": 596,
+        "F2": 1311,
+        "F3": 2917,
+        "BW1": 25,
+        "BW2": 94,
+        "BW3": 100,
+        "A1": 1,
+        "A2": 0.9,
+        "A3": 0.7,
+	"glideTo": {
+          "F1": 442,
+          "F2": 1097,
+          "F3": 2337,
+	},
+        "example": "[ə͡ʊ]"
+      },
       "U": {
         "voicing": 1,
         "F1": 405,
@@ -400,6 +490,19 @@ export const bundled = {
         "A2": 0.9,
         "A3": 0.7,
         "example": "[u]"
+      },
+      "UN": {
+        "voicing": 1,
+        "F1": 371,
+        "F2": 2258,
+        "F3": 3650,
+        "BW1": 59,
+        "BW2": 180,
+        "BW3": 6,
+        "A1": 1,
+        "A2": 0.9,
+        "A3": 0.7,
+        "example": "[ũ]"
       },
       "OO": {
         "voicing": 1,
@@ -534,7 +637,8 @@ export const bundled = {
         "BW3": 200,
         "A1": 0.7,
         "A2": 0.18,
-        "A3": 0.1
+        "A3": 0.1,
+        "example": "[m]"
       },
       "N": {
         "voicing": 1,
@@ -805,6 +909,19 @@ export const bundled = {
         "isStop": true,
         "example": "[ʔ]"
       }
+
+    }
+  },
+  "klatt1980-en": {
+    "schemaVersion": 1,
+    "name": "klatt1980-en",
+    "displayName": "English (Klatt 1980)",
+    "language": "en-US",
+    "license": "MIT",
+    "extends": null,
+    "source": "Klatt, D.H. (1980). \"Software for a cascade/parallel formant synthesizer.\" J. Acoust. Soc. Am. 67(3), Tables II (vowels) and III (consonants). Bandwidths and frequencies are verbatim from Klatt; amplitudes are approximated for our 3-formant parallel synth (Klatt uses six formants plus a bypass path for fricative spectra). Where Klatt places fricative energy in A3-A6 (~3-5 kHz parallel formants), we move our F3 channel up into that band to capture the hiss.",
+    "phonemes": {
+
     }
   }
 };

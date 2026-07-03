@@ -8,6 +8,8 @@ const registry = new Map();
 const resolvedCache = new Map();
 
 for (const [name, bank] of Object.entries(bundled)) {
+  console.log(name);
+  console.log(bank);
   //if (name === 'ja-hecko-2026') {
     registry.set(name, bank);
   //}

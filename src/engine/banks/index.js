@@ -2,7 +2,7 @@
  
 import { bundled } from './bundled.js';
 
-const DEFAULT_BANK = 'ja-hecko-2026';
+const DEFAULT_BANK = 'ipa-soldgabriel-2026';
 
 const registry = new Map();
 const resolvedCache = new Map();
@@ -10,7 +10,7 @@ const resolvedCache = new Map();
 for (const [name, bank] of Object.entries(bundled)) {
   console.log(name);
   console.log(bank);
-  if (name == "ja-hecko-2026") {
+  if (name == "ipa-soldgabriel-2026") {
     registry.set(name, bank);
   }
 }

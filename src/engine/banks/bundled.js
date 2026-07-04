@@ -158,7 +158,7 @@ export const bundled = {
 	},
         "example": "[e͡ɪ]"
       },
-      "EN": {
+      "IN": {
         "voicing": 1,
         "F1": 331,
         "F2": 2322,
@@ -169,7 +169,7 @@ export const bundled = {
         "A1": 1,
         "A2": 0.9,
         "A3": 0.7,
-        "example": "[e]"
+        "example": "[ĩ]"
       },
       "A": {
         "voicing": 1,
@@ -315,7 +315,7 @@ export const bundled = {
         "A3": 0.7,
         "example": "[æ]"
       },
-      "AEN": {
+      "EN": {
         "voicing": 1,
         "F1": 453,
         "F2": 1786,
@@ -326,7 +326,7 @@ export const bundled = {
         "A1": 1,
         "A2": 0.9,
         "A3": 0.7,
-        "example": "[æ̃]"
+        "example": "[ẽ]"
       },
       "AA": {
         "voicing": 1,
@@ -340,6 +340,19 @@ export const bundled = {
         "A2": 0.9,
         "A3": 0.7,
         "example": "[a]"
+      },
+      "AN": {
+        "voicing": 1,
+        "F1": 700,
+        "F2": 1100,
+        "F3": 2400,
+        "BW1": 130,
+        "BW2": 70,
+        "BW3": 160,
+        "A1": 1,
+        "A2": 0.6,
+        "A3": 0.1,
+        "example": "[ã]"
       },
       "AAOO": {
         "voicing": 1,
@@ -493,15 +506,15 @@ export const bundled = {
       },
       "UN": {
         "voicing": 1,
-        "F1": 371,
-        "F2": 2258,
+        "F1": 250,
+        "F2": 600,
         "F3": 3650,
         "BW1": 59,
         "BW2": 180,
-        "BW3": 6,
+        "BW3": 100,
         "A1": 1,
         "A2": 0.9,
-        "A3": 0.7,
+        "A3": 0.1,
         "example": "[ũ]"
       },
       "OO": {

@@ -471,7 +471,7 @@ export const bundled = {
         "A1": 1,
         "A2": 0.9,
         "A3": 0.7,
-	"glideTo": {
+        "glideTo": {
           "F1": 442,
           "F2": 1097,
           "F3": 2337,

@@ -1,4 +1,3 @@
-
 export const bundled = {
   "ipa-soldgabriel-2026": {
     "schemaVersion": 1,

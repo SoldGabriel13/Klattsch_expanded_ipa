@@ -1,3 +1,4 @@
+
 export const bundled = {
   "ja-hecko-2026": {
     "schemaVersion": 1,
@@ -5,7 +6,7 @@ export const bundled = {
     "displayName": "Japanese (.hecko, 2026)",
     "language": "ja-JP",
     "license": "MIT",
-    "extends": "klatt1980-en",
+    "extends": "null",
     "source": "Vowel formant values contributed by .hecko on the klattsch Discord, May 2026.",
     "phonemes": {
       "SS": {

@@ -461,7 +461,7 @@ export const bundled = {
         "A3": 0.7,
         "example": "[ə]"
       },
-      "UH": {
+      "UHOO": {
         "voicing": 1,
         "F1": 596,
         "F2": 1311,

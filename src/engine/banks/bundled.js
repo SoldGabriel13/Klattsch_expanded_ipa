@@ -1,13 +1,13 @@
 
 export const bundled = {
-  "ja-hecko-2026": {
+  "ipa-soldgabriel-2026": {
     "schemaVersion": 1,
-    "name": "ja-hecko-2026",
-    "displayName": "Japanese (.hecko, 2026)",
-    "language": "ja-JP",
-    "license": "MIT",
+    "name": "ipa-soldgabriel-2026",
+    "displayName": "IPA (SoldGabriel, 2026)",
+    "language": "all",
+    "license": "none",
     "extends": null,
-    "source": "Vowel formant values contributed by .hecko on the klattsch Discord, May 2026.",
+    "source": "analysis made by me from online vowels",
     "phonemes": {
       "SS": {
         "voicing": 0,
